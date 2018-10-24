@@ -15,6 +15,7 @@
       <sourceFolder url="file://$MODULE_DIR$/exemplos_vaca/vaca_v2" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/exemplos_vaca/figuras" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/exemplos_vaca/vaca_v3" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/exemplos_vaca/vaca_v4" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/venv" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.6" jdkType="Python SDK" />

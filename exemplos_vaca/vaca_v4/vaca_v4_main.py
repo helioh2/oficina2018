@@ -1,4 +1,4 @@
-from vaca_v3 import *
+from vaca_v4 import *
 
 ''' ================= '''
 ''' Main (Big Bang):
@@ -15,7 +15,8 @@ def main(inic):
              tela=tela, frequencia=FREQUENCIA,
              quando_tick=mover_tudo,  # Jogo -> Jogo
              desenhar=desenha_jogo,  # Jogo -> Imagem
-             quando_tecla=trata_tecla_jogo,  # Jogo Tecla -> Jogo
+             quando_tecla=trata_tecla_jogo,  # Vaca Tecla -> Vaca
+             quando_solta_tecla=trata_solta_jogo,  # Jogo Tecla -> Jogo
              modo_debug=True
              )
 
@@ -29,7 +30,6 @@ def main_vaca(inic):
              quando_tick=mover_vaca,  # Vaca -> Vaca
              desenhar=desenha_vaca,   # Vaca -> Imagem
              quando_tecla=trata_tecla_vaca, # Vaca Tecla -> Vaca
-             # quando_solta_tecla=trata_solta_vaca,
              modo_debug=True
              )
 
